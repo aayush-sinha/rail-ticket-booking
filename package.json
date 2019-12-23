@@ -1,0 +1,32 @@
+{
+  "name": "irctc",
+  "version": "1.0.0",
+  "description": "\"api hitting\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "start": "node app.js",
+    "engines": {
+      "node": "10.15.3",
+      "npm": "6.4.1"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aayush-sinha/rail-ticket-booking.git"
+  },
+  "author": "Aayush Sinha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aayush-sinha/rail-ticket-booking/issues"
+  },
+  "homepage": "https://github.com/aayush-sinha/rail-ticket-booking#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
